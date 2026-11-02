@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d18">
+  <title>Free LootLabs Bypasser</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="brand"><div class="mark">↗</div><div><p class="eyebrow">FREE LINK TOOL</p><h1>LootLabs <span>Bypasser</span></h1></div></header>
+    <section class="panel">
+      <div class="intro"><span class="pill"><i></i> LootLabs only</span><h2>Process your link</h2><p>Paste a LootLabs URL to check for a publicly accessible HTTP redirect.</p></div>
+      <form id="resolverForm">
+        <label for="urlInput">LootLabs URL</label>
+        <div class="input-wrap"><input id="urlInput" type="url" placeholder="https://links.lootlabs.gg/s?..." autocomplete="url" required><button id="pasteBtn" class="paste" type="button">Paste</button></div>
+        <button id="processBtn" class="primary" type="submit"><span id="buttonText">Process link</span><span id="spinner" class="spinner hidden"></span></button>
+      </form>
+      <section id="result" class="result hidden" aria-live="polite"><div class="result-head"><span id="statusDot" class="status-dot"></span><strong id="resultTitle">Result</strong></div><p id="resultMessage"></p><div id="destinationWrap" class="destination hidden"><label>Redirect target</label><div class="destination-row"><code id="destination"></code><button id="copyBtn" type="button" class="copy">Copy</button></div><a id="openLink" class="open-link" target="_blank" rel="noopener noreferrer">Open destination ↗</a></div></section>
+      <p class="footnote">No account. No ads. No link history. Links requiring task verification remain protected.</p>
+    </section>
+    <footer>Free LootLabs Bypasser <span>•</span> Lightweight Cloudflare Pages app</footer>
+  </main>
+  <script src="/assets/js/script.js" defer></script>
+</body>
+</html>
